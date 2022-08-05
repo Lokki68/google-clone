@@ -18,7 +18,7 @@ export default function Home() {
 
     if (!term.trim()) return;
 
-    router.push(`/search?term=${term.trim()}`);
+    router.push(`/search?term=${term.trim()}&searchType=`);
   };
 
   return (
@@ -39,6 +39,7 @@ export default function Home() {
           width="300"
           height="100"
           objectFit="cover"
+          alt="google logo"
         />
         <div className="flex items-center w-full mt-5 mx-auto max-w-[90%] border border-gray-200 hover:shadow-md focus-within:shadow-md px-5 py-3 rounded-full sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 text-gray-500" />
