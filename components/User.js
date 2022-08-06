@@ -11,7 +11,9 @@ function User({ className }) {
           onClick={signOut}
           src={session.user.image}
           alt="user-image"
-          className={`h-10 w-10 rounded-full hover:bg-gray-200 cursor-pointer p-1 ${className}`}
+          className={`h-10 w-10 rounded-full hover:bg-gray-200 cursor-pointer p-1 ${
+            className ? className : ""
+          }`}
         />
       </>
     );
