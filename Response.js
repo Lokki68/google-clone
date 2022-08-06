@@ -1,248 +1,274 @@
 export default {
-    "kind": "customsearch#search",
-    "url": {
-        "type": "application/json",
-        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  kind: "customsearch#search",
+  url: {
+    type: "application/json",
+    template:
+      "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+  },
+  queries: {
+    request: [
+      {
+        title: "Google Custom Search - next js",
+        totalResults: "16360000000",
+        searchTerms: "next js",
+        count: 10,
+        startIndex: 1,
+        inputEncoding: "utf8",
+        outputEncoding: "utf8",
+        safe: "off",
+        cx: "025776e7b5b4e4135",
+        searchType: "image",
+      },
+    ],
+    nextPage: [
+      {
+        title: "Google Custom Search - next js",
+        totalResults: "16360000000",
+        searchTerms: "next js",
+        count: 10,
+        startIndex: 11,
+        inputEncoding: "utf8",
+        outputEncoding: "utf8",
+        safe: "off",
+        cx: "025776e7b5b4e4135",
+        searchType: "image",
+      },
+    ],
+  },
+  context: {
+    title: "www.google.com",
+  },
+  searchInformation: {
+    searchTime: 0.565569,
+    formattedSearchTime: "0.57",
+    totalResults: "16360000000",
+    formattedTotalResults: "16,360,000,000",
+  },
+  items: [
+    {
+      kind: "customsearch#result",
+      title: "Next.js - Wikipedia",
+      htmlTitle: "<b>Next</b>.<b>js</b> - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png",
+      displayLink: "en.wikipedia.org",
+      snippet: "Next.js - Wikipedia",
+      htmlSnippet: "<b>Next</b>.<b>js</b> - Wikipedia",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/Next.js",
+        height: 719,
+        width: 1200,
+        byteSize: 19632,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSpYyzRAdO9xS0Jno-qUkHnuksI2uDE2wRCEHbA1dxL-86cSTGHc7wBs&s",
+        thumbnailHeight: 90,
+        thumbnailWidth: 150,
+      },
     },
-    "queries": {
-        "request": [
-            {
-                "title": "Google Custom Search - tailwind css",
-                "totalResults": "29200000",
-                "searchTerms": "tailwind css",
-                "count": 10,
-                "startIndex": 1,
-                "inputEncoding": "utf8",
-                "outputEncoding": "utf8",
-                "safe": "off",
-                "cx": "897d475f0e4c4881d",
-                "searchType": "image"
-            }
-        ],
-        "nextPage": [
-            {
-                "title": "Google Custom Search - tailwind css",
-                "totalResults": "29200000",
-                "searchTerms": "tailwind css",
-                "count": 10,
-                "startIndex": 11,
-                "inputEncoding": "utf8",
-                "outputEncoding": "utf8",
-                "safe": "off",
-                "cx": "897d475f0e4c4881d",
-                "searchType": "image"
-            }
-        ]
+    {
+      kind: "customsearch#result",
+      title: "Next.js | Drupal.org",
+      htmlTitle: "<b>Next</b>.<b>js</b> | Drupal.org",
+      link: "https://www.drupal.org/files/project-images/nextjs-drupal.jpg",
+      displayLink: "www.drupal.org",
+      snippet: "Next.js | Drupal.org",
+      htmlSnippet: "<b>Next</b>.<b>js</b> | Drupal.org",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink: "https://www.drupal.org/project/next",
+        height: 2160,
+        width: 2160,
+        byteSize: 189185,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN6HQqPTaqXiXoy8huWsEzrxaDF40UtMsI5FELpaYDQqSN1sRpyhdtcBpL&s",
+        thumbnailHeight: 150,
+        thumbnailWidth: 150,
+      },
     },
-    "context": {
-        "title": "go-v3"
+    {
+      kind: "customsearch#result",
+      title: "Introduction | Learn Next.js",
+      htmlTitle: "Introduction | Learn <b>Next</b>.<b>js</b>",
+      link: "https://nextjs.org/static/twitter-cards/learn-foundations.png",
+      displayLink: "nextjs.org",
+      snippet: "Introduction | Learn Next.js",
+      htmlSnippet: "Introduction | Learn <b>Next</b>.<b>js</b>",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://nextjs.org/learn/foundations/about-nextjs",
+        height: 882,
+        width: 1686,
+        byteSize: 291485,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDxsF0hidL0OE5T6L-ik_uPr03rIJCD48zngZNhdRIDqeTYIJfsgK0g&s",
+        thumbnailHeight: 78,
+        thumbnailWidth: 150,
+      },
     },
-    "searchInformation": {
-        "searchTime": 0.552086,
-        "formattedSearchTime": "0.55",
-        "totalResults": "29200000",
-        "formattedTotalResults": "29,200,000"
+    {
+      kind: "customsearch#result",
+      title: "File:Nextjs-logo.svg - Wikipedia",
+      htmlTitle: "File:<b>Nextjs</b>-logo.svg - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png",
+      displayLink: "en.wikipedia.org",
+      snippet: "File:Nextjs-logo.svg - Wikipedia",
+      htmlSnippet: "File:<b>Nextjs</b>-logo.svg - Wikipedia",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/File:Nextjs-logo.svg",
+        height: 1534,
+        width: 2560,
+        byteSize: 46897,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQo6KkRWa-svTbEy_tVIOqs9TUNaQIl3E-EK_ocaQmAgJ-fkKkLhy5sgk&s",
+        thumbnailHeight: 90,
+        thumbnailWidth: 150,
+      },
     },
-    "items": [
-        {
-            "kind": "customsearch#result",
-            "title": "Tailwind CSS IntelliSense | Laravel News",
-            "htmlTitle": "<b>Tailwind CSS</b> IntelliSense | Laravel News",
-            "link": "https://laravelnews.imgix.net/images/tailwind-intellisense.jpg?ixlib=php-3.3.1",
-            "displayLink": "laravel-news.com",
-            "snippet": "Tailwind CSS IntelliSense | Laravel News",
-            "htmlSnippet": "<b>Tailwind CSS</b> IntelliSense | Laravel News",
-            "mime": "image/jpeg",
-            "fileFormat": "image/jpeg",
-            "image": {
-                "contextLink": "https://laravel-news.com/tailwind-css-intellisense",
-                "height": 1100,
-                "width": 2200,
-                "byteSize": 282961,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWylgL-5yUIiT2Cwz-j0eu0FMdb--1BbAHgqXrIkXlk5gks2hPtg2Z0CM&s",
-                "thumbnailHeight": 75,
-                "thumbnailWidth": 150
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Designing with Tailwind CSS",
-            "htmlTitle": "Designing with <b>Tailwind CSS</b>",
-            "link": "https://v1.tailwindcss.com/_next/static/media/workcation-screenshot.e15fad2353857da51319620da615ff93.jpg",
-            "displayLink": "v1.tailwindcss.com",
-            "snippet": "Designing with Tailwind CSS",
-            "htmlSnippet": "Designing with <b>Tailwind CSS</b>",
-            "mime": "image/jpeg",
-            "fileFormat": "image/jpeg",
-            "image": {
-                "contextLink": "https://v1.tailwindcss.com/course",
-                "height": 1059,
-                "width": 1473,
-                "byteSize": 159308,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_G2HsPrg1S6oU3TvAfubMUxncbGChfjrSGmuIlvbqu2CdyuQHoejukQ&s",
-                "thumbnailHeight": 108,
-                "thumbnailWidth": 150
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Tailwind CSS IntelliSense - Visual Studio Marketplace",
-            "htmlTitle": "<b>Tailwind CSS</b> IntelliSense - Visual Studio Marketplace",
-            "link": "https://raw.githubusercontent.com/bradlc/vscode-tailwindcss/master/packages/vscode-tailwindcss/.github/autocomplete.png",
-            "displayLink": "marketplace.visualstudio.com",
-            "snippet": "Tailwind CSS IntelliSense - Visual Studio Marketplace",
-            "htmlSnippet": "<b>Tailwind CSS</b> IntelliSense - Visual Studio Marketplace",
-            "mime": "image/png",
-            "fileFormat": "image/png",
-            "image": {
-                "contextLink": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
-                "height": 1170,
-                "width": 2080,
-                "byteSize": 261905,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMMDcLWzk1A1Aad6iMc1y0kK_fPmKUk4UPRanLgbD1jYa-8vAyy1hN6I&s",
-                "thumbnailHeight": 84,
-                "thumbnailWidth": 150
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Installation: Tailwind CLI - Tailwind CSS",
-            "htmlTitle": "Installation: <b>Tailwind</b> CLI - <b>Tailwind CSS</b>",
-            "link": "https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg",
-            "displayLink": "tailwindcss.com",
-            "snippet": "Installation: Tailwind CLI - Tailwind CSS",
-            "htmlSnippet": "Installation: <b>Tailwind</b> CLI - <b>Tailwind CSS</b>",
-            "mime": "image/jpeg",
-            "fileFormat": "image/jpeg",
-            "image": {
-                "contextLink": "https://tailwindcss.com/docs/installation",
-                "height": 1200,
-                "width": 1200,
-                "byteSize": 21851,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQctSGGENUdrM_-VfQruf8cKZjJpPdDYbl7l8NSADz_VvCPRonlBKC7_IUc&s",
-                "thumbnailHeight": 150,
-                "thumbnailWidth": 150
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Tailwind CSS | WebStorm",
-            "htmlTitle": "<b>Tailwind CSS</b> | WebStorm",
-            "link": "https://resources.jetbrains.com/help/img/idea/2021.3/ws_tailwind_css_preview_completion_dark.png",
-            "displayLink": "www.jetbrains.com",
-            "snippet": "Tailwind CSS | WebStorm",
-            "htmlSnippet": "<b>Tailwind CSS</b> | WebStorm",
-            "mime": "image/png",
-            "fileFormat": "image/png",
-            "image": {
-                "contextLink": "https://www.jetbrains.com/help/webstorm/tailwind-css.html",
-                "height": 656,
-                "width": 1412,
-                "byteSize": 76511,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO-GDrlFsN9RpT-B16QwBFfvweDcf0TrG-4aRXwnah6NyEuKN-CgOPvQ&s",
-                "thumbnailHeight": 70,
-                "thumbnailWidth": 150
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "File:Tailwind CSS Logo.svg - Wikimedia Commons",
-            "htmlTitle": "File:<b>Tailwind CSS</b> Logo.svg - Wikimedia Commons",
-            "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
-            "displayLink": "commons.wikimedia.org",
-            "snippet": "File:Tailwind CSS Logo.svg - Wikimedia Commons",
-            "htmlSnippet": "File:<b>Tailwind CSS</b> Logo.svg - Wikimedia Commons",
-            "mime": "image/png",
-            "fileFormat": "image/png",
-            "image": {
-                "contextLink": "https://commons.wikimedia.org/wiki/File:Tailwind_CSS_Logo.svg",
-                "height": 1200,
-                "width": 1200,
-                "byteSize": 34754,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8fAjVvARrp_F2ObzyIky6qby0diApfGlENNuf8PFM8ZE2gI5SYyfsRJ4&s",
-                "thumbnailHeight": 150,
-                "thumbnailWidth": 150
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Tailwind CSS Starter Kit | Drupal.org",
-            "htmlTitle": "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
-            "link": "https://www.drupal.org/files/project-images/screenshot_361.png",
-            "displayLink": "www.drupal.org",
-            "snippet": "Tailwind CSS Starter Kit | Drupal.org",
-            "htmlSnippet": "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
-            "mime": "image/png",
-            "fileFormat": "image/png",
-            "image": {
-                "contextLink": "https://www.drupal.org/project/tailwindcss",
-                "height": 400,
-                "width": 400,
-                "byteSize": 7158,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQniGOFIc0T_Pxp6gVSF0zDGIbdKfIUgHYNI0CAlwzuQr76oorrLhnj5A&s",
-                "thumbnailHeight": 124,
-                "thumbnailWidth": 124
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Is Tailwind Really Worth It?. Tailwind, the new kid on the block ...",
-            "htmlTitle": "Is <b>Tailwind</b> Really Worth It?. <b>Tailwind</b>, the new kid on the block ...",
-            "link": "https://miro.medium.com/max/712/0*QXkyD4rFK7ivYf9-.png",
-            "displayLink": "javascript.plainenglish.io",
-            "snippet": "Is Tailwind Really Worth It?. Tailwind, the new kid on the block ...",
-            "htmlSnippet": "Is <b>Tailwind</b> Really Worth It?. <b>Tailwind</b>, the new kid on the block ...",
-            "mime": "image/png",
-            "fileFormat": "image/png",
-            "image": {
-                "contextLink": "https://javascript.plainenglish.io/is-tailwind-css-really-worth-using-1830a706231a",
-                "height": 300,
-                "width": 712,
-                "byteSize": 29672,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTtrf56RAHvn_-Umj6AcYBYMv6tLY9yobzOvr4eVfuH4Gw2WrNsy6USQ&s",
-                "thumbnailHeight": 59,
-                "thumbnailWidth": 140
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Tailwind CSS Starter Kit | Drupal.org",
-            "htmlTitle": "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
-            "link": "https://www.drupal.org/files/styles/grid-3-2x/public/project-images/screenshot_361.png?itok=w4CzcWyb",
-            "displayLink": "www.drupal.org",
-            "snippet": "Tailwind CSS Starter Kit | Drupal.org",
-            "htmlSnippet": "<b>Tailwind CSS</b> Starter Kit | Drupal.org",
-            "mime": "image/png",
-            "fileFormat": "image/png",
-            "image": {
-                "contextLink": "https://www.drupal.org/project/tailwindcss",
-                "height": 400,
-                "width": 400,
-                "byteSize": 6833,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe3nPNy8zuCqISZaVsqC-PkpgoozWXn9o4aF-Ar_f1v7NSSlxqWJ9m&s",
-                "thumbnailHeight": 124,
-                "thumbnailWidth": 124
-            }
-        },
-        {
-            "kind": "customsearch#result",
-            "title": "Material Tailwind Kit React: Free Tailwind CSS & Material Design ...",
-            "htmlTitle": "Material <b>Tailwind</b> Kit React: Free <b>Tailwind CSS</b> &amp; Material Design ...",
-            "link": "https://s3.amazonaws.com/creativetim_bucket/products/486/original/opt_mtr_thumbnail.jpg?1623313854",
-            "displayLink": "www.creative-tim.com",
-            "snippet": "Material Tailwind Kit React: Free Tailwind CSS & Material Design ...",
-            "htmlSnippet": "Material <b>Tailwind</b> Kit React: Free <b>Tailwind CSS</b> &amp; Material Design ...",
-            "mime": "image/jpeg",
-            "fileFormat": "image/jpeg",
-            "image": {
-                "contextLink": "https://www.creative-tim.com/product/material-tailwind-kit-react",
-                "height": 600,
-                "width": 800,
-                "byteSize": 90436,
-                "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-wHY-cczVV_RC0ru4LDgYnmVdwBFYOa8qhlWYV0kIhWdjQ44ectkwdM&s",
-                "thumbnailHeight": 107,
-                "thumbnailWidth": 143
-            }
-        }
-    ]
-}
+    {
+      kind: "customsearch#result",
+      title:
+        "Tutorial: Deploy static-rendered Next.js websites on Azure Static ...",
+      htmlTitle:
+        "Tutorial: Deploy static-rendered <b>Next</b>.<b>js</b> websites on Azure Static ...",
+      link: "https://docs.microsoft.com/en-us/azure/static-web-apps/media/deploy-nextjs/start-nextjs-app.png",
+      displayLink: "docs.microsoft.com",
+      snippet:
+        "Tutorial: Deploy static-rendered Next.js websites on Azure Static ...",
+      htmlSnippet:
+        "Tutorial: Deploy static-rendered <b>Next</b>.<b>js</b> websites on Azure Static ...",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://docs.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs",
+        height: 1916,
+        width: 2770,
+        byteSize: 217608,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgTwLPnJJSMD-3bRhFkbY3tDaRC6EkKzK2Gejs3AC1LWMxhpBxfj_yxRk&s",
+        thumbnailHeight: 104,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Next.js - Wikipedia",
+      htmlTitle: "<b>Next</b>.<b>js</b> - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png",
+      displayLink: "en.wikipedia.org",
+      snippet: "Next.js - Wikipedia",
+      htmlSnippet: "<b>Next</b>.<b>js</b> - Wikipedia",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/Next.js",
+        height: 479,
+        width: 800,
+        byteSize: 12192,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXe91V-rqoBOOBQ_XdOscUzy75oGZi3nm2ut0Y_eAoJ8K7Cs96YnuywI0&s",
+        thumbnailHeight: 86,
+        thumbnailWidth: 143,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Different forms of Pre-rendering in NextJS - GeeksforGeeks",
+      htmlTitle:
+        "Different forms of Pre-rendering in <b>NextJS</b> - GeeksforGeeks",
+      link: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220311094050/User-send-a-request-to.png",
+      displayLink: "www.geeksforgeeks.org",
+      snippet: "Different forms of Pre-rendering in NextJS - GeeksforGeeks",
+      htmlSnippet:
+        "Different forms of Pre-rendering in <b>NextJS</b> - GeeksforGeeks",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://www.geeksforgeeks.org/different-forms-of-pre-rendering-in-nextjs/",
+        height: 628,
+        width: 1000,
+        byteSize: 89748,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQll2w98HE9S_Ngn2XP9aNIZup0aMJn71yt_hHL365thnodYMFdzsZWRBg&s",
+        thumbnailHeight: 94,
+        thumbnailWidth: 149,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Next.js - Wikipedia",
+      htmlTitle: "<b>Next</b>.<b>js</b> - Wikipedia",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/640px-Nextjs-logo.svg.png",
+      displayLink: "en.wikipedia.org",
+      snippet: "Next.js - Wikipedia",
+      htmlSnippet: "<b>Next</b>.<b>js</b> - Wikipedia",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink: "https://en.wikipedia.org/wiki/Next.js",
+        height: 383,
+        width: 640,
+        byteSize: 9784,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoztZtL5OCvXYJkUEcNzPBpz0JIEUi-8KCpYsbbNqPZUT-lMjmNL33uQ&s",
+        thumbnailHeight: 82,
+        thumbnailWidth: 137,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Build and Deploy Serverless Apps with Next.js 8 and Zeit Now",
+      htmlTitle:
+        "Build and Deploy Serverless Apps with <b>Next</b>.<b>js</b> 8 and Zeit Now",
+      link: "https://hasura.io/blog/content/images/2019/02/nextjs-serverless-now-hasura-graphql.png",
+      displayLink: "hasura.io",
+      snippet: "Build and Deploy Serverless Apps with Next.js 8 and Zeit Now",
+      htmlSnippet:
+        "Build and Deploy Serverless Apps with <b>Next</b>.<b>js</b> 8 and Zeit Now",
+      mime: "image/png",
+      fileFormat: "image/png",
+      image: {
+        contextLink:
+          "https://hasura.io/blog/build-and-deploy-serverless-apps-with-nextjs-8-zeit-now/",
+        height: 675,
+        width: 1200,
+        byteSize: 46939,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ290cQAaV9BsU7w1bkL1LMGPieAhrVNQ7MI9t62KOKmk8LPCt7yQBVSGc&s",
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: "customsearch#result",
+      title: "Portfar - Personal Portfolio Next.js Template by themepresss ...",
+      htmlTitle:
+        "Portfar - Personal Portfolio <b>Next</b>.<b>js</b> Template by themepresss ...",
+      link: "https://themeforest.img.customer.envatousercontent.com/files/373443048/preview.__large_preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=9b9e04445a1201721e5f86547083c6c2",
+      displayLink: "themeforest.net",
+      snippet:
+        "Portfar - Personal Portfolio Next.js Template by themepresss ...",
+      htmlSnippet:
+        "Portfar - Personal Portfolio <b>Next</b>.<b>js</b> Template by themepresss ...",
+      mime: "image/jpeg",
+      fileFormat: "image/jpeg",
+      image: {
+        contextLink:
+          "https://themeforest.net/item/portfar-personal-portfolio-nextjs-template/35278934",
+        height: 300,
+        width: 590,
+        byteSize: 24724,
+        thumbnailLink:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKG4TUNhpSNUYBPYx2P5bgYyX-uovVHWcdSom9oUG3VLxL1C1nHLRCfnw&s",
+        thumbnailHeight: 69,
+        thumbnailWidth: 135,
+      },
+    },
+  ],
+};

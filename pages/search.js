@@ -1,9 +1,12 @@
 import React from "react";
 import Head from "next/head";
-import SearchHeader from "../components/SearchHeader";
-import Response from "../Response";
-import SearchResults from "../components/SearchResults";
 import { useRouter } from "next/router";
+
+import SearchHeader from "../components/SearchHeader";
+import SearchResults from "../components/SearchResults";
+import ImageResults from "../components/ImageResults";
+
+import Response from "../Response";
 
 const Search = ({ results }) => {
   const router = useRouter();
@@ -19,8 +22,13 @@ const Search = ({ results }) => {
       {/*  Search Header */}
       <SearchHeader />
 
-      {/*  Search Result */}
-      <SearchResults results={results} />
+      {/*  Search All and Img Result */}
+
+      {router.query.searchType === "image" ? (
+        <ImageResults results={results} />
+      ) : (
+        <SearchResults results={results} />
+      )}
     </div>
   );
 };
@@ -28,7 +36,7 @@ const Search = ({ results }) => {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const mockData = true;
+  const mockData = false;
   const startIndex = context.query.start || "1";
 
   const data = mockData
